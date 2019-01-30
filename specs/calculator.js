@@ -17,6 +17,8 @@ describe('Protractor calculator demo test', function(){
             console.log(text);
         })
 
+        //When we do assertion verify result, jasmine assertion will take of the promis
+        expect(element(by.css("h2[class='ng-binding']")).getText()).toBe('12');
 
     })
 });
