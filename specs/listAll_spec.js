@@ -1,3 +1,6 @@
+//3. This spec is to show how to chain locators using: element(locator).element(locator)
+//and find an array of elements using: element.all(locator) 
+
 describe('Get text from the list',function(){
 
     it('Should display all text from the list',function(){

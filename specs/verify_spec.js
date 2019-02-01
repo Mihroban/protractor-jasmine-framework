@@ -1,3 +1,4 @@
+//1. This spec is to show how to use jasmine assertion to verify the result;
 
 describe('Enter name feature of AngularJS app',function(){
     it('should enter name as Mikki',function(){

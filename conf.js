@@ -9,6 +9,8 @@ exports.config = {
 
     specs: [//'specs/spec.js',
             //'specs/calculator.js',
-            'specs/listAll_spec.js'
+            //'specs/listAll_spec.js',
+            //'specs/addFunction.js',
+            'specs/dropDown.js'
         ]
 };

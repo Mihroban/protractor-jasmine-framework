@@ -1,4 +1,4 @@
-
+//2. This spec is a simple test to show how to resolve promise using then(function); 
 
 describe('Protractor calculator demo test', function(){
 
@@ -17,7 +17,7 @@ describe('Protractor calculator demo test', function(){
             console.log(text);
         })
 
-        //When we do assertion verify result, jasmine assertion will take of the promis
+        //When we do assertion verify result, jasmine assertion will take care of the promise
         expect(element(by.css("h2[class='ng-binding']")).getText()).toBe('12');
 
     })
